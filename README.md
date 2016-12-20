@@ -2,6 +2,7 @@
    androidStudio插件集合
 # 功能列表
 ## postfix快捷命令
+```
     1.log快捷命令：
         a).原生LogAPI快捷命令：
             字符串: "测试".log---->Log.d(TAG, "测试");
@@ -48,9 +49,12 @@
             需要在Preferences-->OtherSettings->AndroidCodeGenerator->FindId Template 修改成自定义api调用函数模型
             我定义的模版：
                 findbyId:tv.find-->tv = findById(R.id.tv);
+```
 ## search String/Extract resource快捷菜单
+```
     支持查询string／color／dimen 
     通过弹窗添加string／color／dimen属性
+```
 ## 自动检索布局中的控件生成findviewbyid代码和成员变量
 # License
 
